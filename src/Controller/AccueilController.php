@@ -64,4 +64,22 @@ class AccueilController extends AbstractController
         return $this->render('YonneAutos/espace-membre.html.twig'
         );
     }
+
+    /**
+     * @Route("/rappelez-moi", name="rappelez-moi")
+     * function qui renvoi la pop-up de rappel
+     */
+
+    public function rappelezMoi(){
+    	return $this->render('YonneAutos/rappelez-moi.html.twig'
+    	);
+    }
+    /**
+     * @Route("/espace-membre", name="espaceMembre")
+     * function qui renvoi la vue de l'espace membre
+     */
+    public function espaceMembre(){
+    	return $this->render('YonneAutos/espace-membre.html.twig'
+    	);
+    }
 }

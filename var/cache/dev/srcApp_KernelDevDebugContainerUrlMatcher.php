@@ -20,7 +20,11 @@ class srcApp_KernelDevDebugContainerUrlMatcher extends Symfony\Bundle\FrameworkB
             '/nous-connaitre' => [[['_route' => 'nous-connaitre', '_controller' => 'App\\Controller\\AccueilController::QuiSommeNous'], null, null, null, false, false, null]],
             '/nos-service' => [[['_route' => 'nos-services', '_controller' => 'App\\Controller\\AccueilController::nosService'], null, null, null, false, false, null]],
             '/contact' => [[['_route' => 'contact', '_controller' => 'App\\Controller\\AccueilController::Contact'], null, null, null, false, false, null]],
-            '/espace-membre' => [[['_route' => 'espace-connexion', '_controller' => 'App\\Controller\\AccueilController::espaceConnexion'], null, null, null, false, false, null]],
+            '/espace-membre' => [
+                [['_route' => 'espace-connexion', '_controller' => 'App\\Controller\\AccueilController::espaceConnexion'], null, null, null, false, false, null],
+                [['_route' => 'espaceMembre', '_controller' => 'App\\Controller\\AccueilController::espaceMembre'], null, null, null, false, false, null],
+            ],
+            '/rappelez-moi' => [[['_route' => 'rappelez-moi', '_controller' => 'App\\Controller\\AccueilController::rappelezMoi'], null, null, null, false, false, null]],
             '/_profiler' => [[['_route' => '_profiler_home', '_controller' => 'web_profiler.controller.profiler::homeAction'], null, null, null, true, false, null]],
             '/_profiler/search' => [[['_route' => '_profiler_search', '_controller' => 'web_profiler.controller.profiler::searchAction'], null, null, null, false, false, null]],
             '/_profiler/search_bar' => [[['_route' => '_profiler_search_bar', '_controller' => 'web_profiler.controller.profiler::searchBarAction'], null, null, null, false, false, null]],

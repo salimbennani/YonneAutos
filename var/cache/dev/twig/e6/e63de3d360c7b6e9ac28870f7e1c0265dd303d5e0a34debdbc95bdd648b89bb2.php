@@ -52,17 +52,6 @@ class __TwigTemplate_54c08658bd340d039fef194ef90ee05f9e21eb46a46e0a1cbd15d2c6359
         // line 4
         echo "
 <h1> Bienvenue sur votre nouvelle plateforme </h1>
-
-<!-- Carousel
-    ================================================== -->
-    <div id=\"cbp-fwslider\" class=\"cbp-fwslider\">
-\t\t<ul>
-\t\t\t<li><a href=\"#\"><img src=\"images/1.jpg\" alt=\"img02\"/></a></li>
-\t\t</ul>
-\t</div>
-\t<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js\"></script>
-\t<!-- <script src=\"js/jquery.cbpFWSlider.min.js\"></script> -->
-
 \t
 
 <p> Bla bla bla bla </p>
@@ -98,17 +87,6 @@ class __TwigTemplate_54c08658bd340d039fef194ef90ee05f9e21eb46a46e0a1cbd15d2c6359
 {% block body %}
 
 <h1> Bienvenue sur votre nouvelle plateforme </h1>
-
-<!-- Carousel
-    ================================================== -->
-    <div id=\"cbp-fwslider\" class=\"cbp-fwslider\">
-\t\t<ul>
-\t\t\t<li><a href=\"#\"><img src=\"images/1.jpg\" alt=\"img02\"/></a></li>
-\t\t</ul>
-\t</div>
-\t<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js\"></script>
-\t<!-- <script src=\"js/jquery.cbpFWSlider.min.js\"></script> -->
-
 \t
 
 <p> Bla bla bla bla </p>
