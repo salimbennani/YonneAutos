@@ -202,7 +202,7 @@ class __TwigTemplate_c2ffbe718d4c7bbeed778fe163f7e7140d67058f48b89615f1e8cba23e0
 
         // line 83
         echo "        <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>
-        <script src=\"";
+        <script type=\"text/javasscript\" src=\"";
         // line 84
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/app.js"), "html", null, true);
         echo "\"></script>
@@ -315,7 +315,7 @@ class __TwigTemplate_c2ffbe718d4c7bbeed778fe163f7e7140d67058f48b89615f1e8cba23e0
 \t\t</div>
 \t\t{% block javascripts %}
         <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>
-        <script src=\"{{ asset('build/app.js') }}\"></script>
+        <script type=\"text/javasscript\" src=\"{{ asset('build/app.js') }}\"></script>
         {% endblock %}
     </body>
 </html>

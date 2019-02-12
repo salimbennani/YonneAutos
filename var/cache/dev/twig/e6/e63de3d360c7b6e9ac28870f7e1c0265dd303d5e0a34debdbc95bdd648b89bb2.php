@@ -52,7 +52,6 @@ class __TwigTemplate_54c08658bd340d039fef194ef90ee05f9e21eb46a46e0a1cbd15d2c6359
         // line 4
         echo "
 <h1> Bienvenue sur votre nouvelle plateforme </h1>
-\t
 
 <p> Bla bla bla bla </p>
 
@@ -87,7 +86,6 @@ class __TwigTemplate_54c08658bd340d039fef194ef90ee05f9e21eb46a46e0a1cbd15d2c6359
 {% block body %}
 
 <h1> Bienvenue sur votre nouvelle plateforme </h1>
-\t
 
 <p> Bla bla bla bla </p>
 

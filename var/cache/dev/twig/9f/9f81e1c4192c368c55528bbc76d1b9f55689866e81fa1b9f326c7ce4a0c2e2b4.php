@@ -40,7 +40,7 @@ class __TwigTemplate_7fb6d2432e4d051d659dc5ed9994af4276e416777626f55387135f2c59b
 
     }
 
-    // line 6
+    // line 4
     public function block_body($context, array $blocks = [])
     {
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
@@ -49,7 +49,7 @@ class __TwigTemplate_7fb6d2432e4d051d659dc5ed9994af4276e416777626f55387135f2c59b
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        // line 7
+        // line 5
         echo "
 <h1> Page de connexion </h1>
 <p> formulaire de connexion  </p>
@@ -79,15 +79,13 @@ class __TwigTemplate_7fb6d2432e4d051d659dc5ed9994af4276e416777626f55387135f2c59b
 
     public function getDebugInfo()
     {
-        return array (  53 => 7,  44 => 6,  15 => 2,);
+        return array (  53 => 5,  44 => 4,  15 => 2,);
     }
 
     public function getSourceContext()
     {
         return new Twig_Source("{# Hérité de l'affichage de base index:base.html.twig #}
 {% extends 'base.html.twig' %}
-
-{# On appel le block avec la commande  #}
 
 {% block body %}
 
