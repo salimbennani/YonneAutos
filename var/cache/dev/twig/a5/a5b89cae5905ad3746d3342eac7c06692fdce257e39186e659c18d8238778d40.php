@@ -42,10 +42,10 @@ class __TwigTemplate_c2ffbe718d4c7bbeed778fe163f7e7140d67058f48b89615f1e8cba23e0
         <link rel=\"stylesheet\" type=\"text/css\" href=\"https://bootswatch.com/4/lux/bootstrap.min.css\">
         <!-- <link rel=\"stylesheet\" type=\"text/css\" href=\"https://bootswatch.com/4/flatly/bootstrap.min.css\"> -->
 
-        <!-- <link rel=\"stylesheet\" type=\"text/css\" href=\"";
+        <link rel=\"stylesheet\" type=\"text/css\" href=\"";
         // line 10
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/app.css"), "html", null, true);
-        echo "\"> -->
+        echo "\">
         ";
         // line 11
         $this->displayBlock('stylesheets', $context, $blocks);
@@ -89,7 +89,7 @@ class __TwigTemplate_c2ffbe718d4c7bbeed778fe163f7e7140d67058f48b89615f1e8cba23e0
 \t\t</nav> -->
 
 \t\t<nav class=\"navbar navbar-expand-lg navbar-dark bg-primary\">
-\t\t  <a class=\"navbar-brand\" href=\"#\">YonneAutos</a>
+\t\t  <a class=\"navbar-brand\" href=\"\">YonneAutos</a>
 \t\t  \t<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarColor01\" aria-controls=\"navbarColor01\" aria-expanded=\"true\" aria-label=\"Toggle navigation\">
 \t\t    \t<span class=\"navbar-toggler-icon\"></span>
 \t\t  \t</button>
@@ -201,7 +201,7 @@ class __TwigTemplate_c2ffbe718d4c7bbeed778fe163f7e7140d67058f48b89615f1e8cba23e0
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
         // line 83
-        echo "        <script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>
+        echo "            <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>
         ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -237,7 +237,7 @@ class __TwigTemplate_c2ffbe718d4c7bbeed778fe163f7e7140d67058f48b89615f1e8cba23e0
         <link rel=\"stylesheet\" type=\"text/css\" href=\"https://bootswatch.com/4/lux/bootstrap.min.css\">
         <!-- <link rel=\"stylesheet\" type=\"text/css\" href=\"https://bootswatch.com/4/flatly/bootstrap.min.css\"> -->
 
-        <!-- <link rel=\"stylesheet\" type=\"text/css\" href=\"{{ asset('build/app.css') }}\"> -->
+        <link rel=\"stylesheet\" type=\"text/css\" href=\"{{ asset('build/app.css') }}\">
         {% block stylesheets %}{% endblock %}
 
         <!-- <link rel=\"stylesheet\" type=\"text/css\" href=\"css/bootstrap.min.css\">
@@ -278,7 +278,7 @@ class __TwigTemplate_c2ffbe718d4c7bbeed778fe163f7e7140d67058f48b89615f1e8cba23e0
 \t\t</nav> -->
 
 \t\t<nav class=\"navbar navbar-expand-lg navbar-dark bg-primary\">
-\t\t  <a class=\"navbar-brand\" href=\"#\">YonneAutos</a>
+\t\t  <a class=\"navbar-brand\" href=\"\">YonneAutos</a>
 \t\t  \t<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarColor01\" aria-controls=\"navbarColor01\" aria-expanded=\"true\" aria-label=\"Toggle navigation\">
 \t\t    \t<span class=\"navbar-toggler-icon\"></span>
 \t\t  \t</button>
@@ -310,7 +310,7 @@ class __TwigTemplate_c2ffbe718d4c7bbeed778fe163f7e7140d67058f48b89615f1e8cba23e0
 \t\t\t{% block body %}{% endblock %}
 \t\t</div>
         {% block javascripts %}
-        <script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>
+            <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>
         {% endblock %}
     </body>
 </html>
