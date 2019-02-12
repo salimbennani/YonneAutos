@@ -38,7 +38,7 @@ class __TwigTemplate_c2ffbe718d4c7bbeed778fe163f7e7140d67058f48b89615f1e8cba23e0
         // line 5
         $this->displayBlock('titre', $context, $blocks);
         echo "</title>     
-        <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\" integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">
+        <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css\" integrity=\"sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA\" crossorigin=\"anonymous\">
         <link rel=\"stylesheet\" type=\"text/css\" href=\"https://bootswatch.com/4/lux/bootstrap.min.css\">
         <!-- <link rel=\"stylesheet\" type=\"text/css\" href=\"https://bootswatch.com/4/flatly/bootstrap.min.css\"> -->
 
@@ -127,7 +127,7 @@ class __TwigTemplate_c2ffbe718d4c7bbeed778fe163f7e7140d67058f48b89615f1e8cba23e0
 \t\t";
         // line 82
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 86
+        // line 88
         echo "    </body>
 </html>
 ";
@@ -201,9 +201,11 @@ class __TwigTemplate_c2ffbe718d4c7bbeed778fe163f7e7140d67058f48b89615f1e8cba23e0
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
         // line 83
-        echo "        <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>
+        echo "        <script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>
+\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js\" integrity=\"sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1\" crossorigin=\"anonymous\"></script>
+\t\t<script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js\" integrity=\"sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp\" crossorigin=\"anonymous\"></script>
         <script type=\"text/javasscript\" src=\"";
-        // line 84
+        // line 86
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/app.js"), "html", null, true);
         echo "\"></script>
         ";
@@ -227,7 +229,7 @@ class __TwigTemplate_c2ffbe718d4c7bbeed778fe163f7e7140d67058f48b89615f1e8cba23e0
 
     public function getDebugInfo()
     {
-        return array (  207 => 84,  204 => 83,  195 => 82,  178 => 80,  161 => 11,  143 => 5,  131 => 86,  129 => 82,  126 => 81,  124 => 80,  121 => 79,  53 => 12,  51 => 11,  47 => 10,  39 => 5,  33 => 1,);
+        return array (  209 => 86,  204 => 83,  195 => 82,  178 => 80,  161 => 11,  143 => 5,  131 => 88,  129 => 82,  126 => 81,  124 => 80,  121 => 79,  53 => 12,  51 => 11,  47 => 10,  39 => 5,  33 => 1,);
     }
 
     public function getSourceContext()
@@ -237,7 +239,7 @@ class __TwigTemplate_c2ffbe718d4c7bbeed778fe163f7e7140d67058f48b89615f1e8cba23e0
     <head>
         <meta charset=\"UTF-8\">
         <title>{% block titre %}YonneAutos!{% endblock %}</title>     
-        <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\" integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">
+        <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css\" integrity=\"sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA\" crossorigin=\"anonymous\">
         <link rel=\"stylesheet\" type=\"text/css\" href=\"https://bootswatch.com/4/lux/bootstrap.min.css\">
         <!-- <link rel=\"stylesheet\" type=\"text/css\" href=\"https://bootswatch.com/4/flatly/bootstrap.min.css\"> -->
 
@@ -314,7 +316,9 @@ class __TwigTemplate_c2ffbe718d4c7bbeed778fe163f7e7140d67058f48b89615f1e8cba23e0
 \t\t\t{% block body %}{% endblock %}
 \t\t</div>
 \t\t{% block javascripts %}
-        <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>
+        <script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>
+\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js\" integrity=\"sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1\" crossorigin=\"anonymous\"></script>
+\t\t<script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js\" integrity=\"sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp\" crossorigin=\"anonymous\"></script>
         <script type=\"text/javasscript\" src=\"{{ asset('build/app.js') }}\"></script>
         {% endblock %}
     </body>

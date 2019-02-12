@@ -28,6 +28,7 @@ class srcApp_KernelDevDebugContainerUrlGenerator extends Symfony\Component\Routi
         'espace-connexion' => [[], ['_controller' => 'App\\Controller\\AccueilController::espaceConnexion'], [], [['text', '/espace-membre']], [], []],
         'rappelez-moi' => [[], ['_controller' => 'App\\Controller\\AccueilController::rappelezMoi'], [], [['text', '/rappelez-moi']], [], []],
         'espaceMembre' => [[], ['_controller' => 'App\\Controller\\AccueilController::espaceMembre'], [], [['text', '/espace-membre']], [], []],
+        'collection' => [[], ['_controller' => 'App\\Controller\\AccueilController::MaCollection'], [], [['text', '/collection']], [], []],
         '_twig_error_test' => [['code', '_format'], ['_controller' => 'twig.controller.preview_error::previewErrorPageAction', '_format' => 'html'], ['code' => '\\d+'], [['variable', '.', '[^/]++', '_format', true], ['variable', '/', '\\d+', 'code', true], ['text', '/_error']], [], []],
         '_wdt' => [['token'], ['_controller' => 'web_profiler.controller.profiler::toolbarAction'], [], [['variable', '/', '[^/]++', 'token', true], ['text', '/_wdt']], [], []],
         '_profiler_home' => [[], ['_controller' => 'web_profiler.controller.profiler::homeAction'], [], [['text', '/_profiler/']], [], []],

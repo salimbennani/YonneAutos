@@ -82,4 +82,12 @@ class AccueilController extends AbstractController
     	return $this->render('YonneAutos/espace-membre.html.twig'
     	);
     }
+    /**
+     * @Route("/collection", name="collection")
+     * function qui affiche l'id 30 de la page MaCollection
+     */
+    public function MaCollection(){
+    	return $this->render('YonneAutos/MaCollection.html.twig'
+    	);
+    }
 }

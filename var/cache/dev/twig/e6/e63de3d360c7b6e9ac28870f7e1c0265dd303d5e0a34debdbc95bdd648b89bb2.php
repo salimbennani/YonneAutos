@@ -55,6 +55,7 @@ class __TwigTemplate_54c08658bd340d039fef194ef90ee05f9e21eb46a46e0a1cbd15d2c6359
 
 <p> Bla bla bla bla </p>
 
+
 ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -88,6 +89,7 @@ class __TwigTemplate_54c08658bd340d039fef194ef90ee05f9e21eb46a46e0a1cbd15d2c6359
 <h1> Bienvenue sur votre nouvelle plateforme </h1>
 
 <p> Bla bla bla bla </p>
+
 
 {% endblock %}", "YonneAutos/accueil.html.twig", "C:\\Ampps\\www\\YonneAutos\\YonneAutosv1\\YonneAutos\\templates\\YonneAutos\\accueil.html.twig");
     }
